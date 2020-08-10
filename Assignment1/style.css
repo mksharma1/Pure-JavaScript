@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial;
+    background-color: rgb(241, 237, 237);}
+
+    .pagination {
+      max-width: 600px;
+      min-width: 400px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      background-color:  rgb(41, 237, 237);
+      padding: 20px;
+    }
+    .pagination .tableList {
+        min-height: 250px;
+        text-indent: 20px;
+    }
+    .tableList .objectBlock {
+        position: relative;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .pageButton {
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .clickPageNumber {
+        background-color: lightgrey;
+        padding: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .pagination-block {
+      text-align: center;
+      width: 100%;
+    }
+    .pagination-block span {
+      display: inline;
+      align-content: space-between;
+    }
+    .pagination-block .pageButton {
+      background-color: grey;
+      color: white;
+    }
+    .pagination-block span:hover {
+      cursor: pointer;
+    }
+    .opacity {
+      opacity: 0.5;
+    }
+    .outline-none {
+      outline: none;
+      user-select: none; 
+    }
+
+    #setNumPage{
+      display: inline;
+    }
+  
+  
