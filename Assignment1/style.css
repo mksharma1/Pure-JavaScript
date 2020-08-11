@@ -60,7 +60,8 @@ body {
       user-select: none; 
     }
 
-    #setNumPage{
+    .setNumPage{
+     padding-left: 200px;
       display: inline;
     }
   
