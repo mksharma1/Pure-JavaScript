@@ -7,29 +7,28 @@ body {
     background-color: rgb(241, 237, 237);}
 
     .pagination {
-      max-width: 600px;
+      max-width: 900px;
       min-width: 400px;
       width: 100%;
       display: block;
       margin: 0 auto;
       position: relative;
-      background-color:  rgb(41, 237, 237);
+      background-color: white;
       padding: 20px;
     }
-    .pagination .tableList {
-        min-height: 250px;
-        text-indent: 20px;
-    }
+  
     .tableList .objectBlock {
         position: relative;
-        background-color: black;
-        color: white;
+        background-color:white;
+        color:black;
         padding: 10px;
         margin-bottom: 10px;
+        border: 1px solid black;
     }
     .pageButton {
         border: 1px solid black;
         padding: 5px;
+        margin-left: 10px;
     }
     .clickPageNumber {
         background-color: lightgrey;
@@ -40,14 +39,16 @@ body {
     .pagination-block {
       text-align: center;
       width: 100%;
+      margin: 15px;
     }
     .pagination-block span {
       display: inline;
       align-content: space-between;
     }
     .pagination-block .pageButton {
-      background-color: grey;
-      color: white;
+      
+      color:black;
+      float: left;
     }
     .pagination-block span:hover {
       cursor: pointer;
@@ -61,8 +62,23 @@ body {
     }
 
     .setNumPage{
-     padding-left: 200px;
-      display: inline;
+     display: inline;
+     margin-left: 400px;
+     
+     padding: 5px;
+    
+    }
+    table{
+      width: 900px;
+      height: auto;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td, th{
+      border: 1px solid black;  
+      border-collapse: collapse;
+      text-align: center;
+
     }
   
-  
+   

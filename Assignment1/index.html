@@ -6,19 +6,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body >
+  
 
 <div id="pagination" class="pagination">
-    <div class="tableList" id="listingTable"></div>
+
+    <div>   <table class="tableList" >
+        <thead>
+          <tr>
+            <th>Roll no</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr></thead>
+          <tbody id="listingTable"></tbody>
+      <tbody></tbody>
+      </table>
+</div>
+
     <div class="pagination-block">
         <span class="pageButton outline-none" id="button_first">First</span>
       <span class="pageButton outline-none" id="button_prev">Prev</span>
-      <span id="page_number" class="outline-none"></span>
+      <span id="page_number" class="pageButton outline-none"></span>
       <span class="pageButton outline-none" id="button_next">Next</span>
       <span class="pageButton outline-none" id="button_last">Last</span>
       <span class="setNumPage">
-        <select id = "setNumPage" >
+        <select id = "setNumPage" style="font-size: larger;">
          <option value = "5">5</option>
          <option value = "10">10</option>
          <option value = "20">20</option>
