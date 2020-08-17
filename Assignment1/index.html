@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/a1dbcbd1a5.js"></script>
 </head>
 <body >
   
@@ -16,29 +17,33 @@
           <tr>
             <th>Roll no</th>
             <th>Name</th>
-            <th>Email</th>
+            <th style="border-right: 1px solid black;">Email</th>
           </tr></thead>
           <tbody id="listingTable"></tbody>
-      <tbody></tbody>
+          <tfoot>
+            <tr>
+               <td colspan = "4"><div class="pagination-block">
+                <span class="pageButton outline-none" id="button_first"><i class="fa fa-backward" aria-hidden="true"></i></span>
+              <span class="pageButton outline-none" id="button_prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+              <span id="page_number" class="pageButton outline-none"></span>
+              <span class="pageButton outline-none" id="button_next"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+              <span class="pageButton outline-none" id="button_last"><i class="fa fa-forward" aria-hidden="true"></i></span>
+              <span class="setRecordsPerPage">
+                <select id = "setRecordsPerPage" style="font-size: larger;">
+                 <option value = "5">5</option>
+                 <option value = "10">10</option>
+                 <option value = "20">20</option>
+                </select></span>
+             
+            </div></td>
+            </tr>
+         </tfoot>
       </table>
 </div>
 
-    <div class="pagination-block">
-        <span class="pageButton outline-none" id="button_first">First</span>
-      <span class="pageButton outline-none" id="button_prev">Prev</span>
-      <span id="page_number" class="pageButton outline-none"></span>
-      <span class="pageButton outline-none" id="button_next">Next</span>
-      <span class="pageButton outline-none" id="button_last">Last</span>
-      <span class="setNumPage">
-        <select id = "setNumPage" style="font-size: larger;">
-         <option value = "5">5</option>
-         <option value = "10">10</option>
-         <option value = "20">20</option>
-        </select></span>
-     
-    </div>
     
-    <div>
+    
+    
         <script src="list.js"></script>
 </body>
 </html>

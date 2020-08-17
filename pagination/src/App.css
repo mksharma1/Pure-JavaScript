@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.pagination {
+  max-width: 900px;
+  min-width: 400px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  padding: 20px;
+}
+
+.tableList .objectBlock {
+    position: relative;
+    background-color:white;
+    color:black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.pageButton {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+.clickPageNumber {
+    background-color: lightgrey;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.pagination-block {
+  text-align: center;
+  width: 100%;
+  margin: 15px;
+}
+.pagination-block span {
+  display: inline;
+  align-content: space-between;
+}
+.pagination-block .pageButton {
+  
+  color:black;
+  float: left;
+}
+.pagination-block span:hover {
+  cursor: pointer;
+}
+.opacity {
+  opacity: 0.5;
+}
+.outline-none {
+  outline: none;
+  user-select: none; 
+}
+
+.setNumPage{
+ display: inline;
+ margin-left: 400px;
+ 
+ padding: 5px;
+
+}
+table{
+  width: 900px;
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid black;  
+  border-collapse: collapse;
+  text-align: center;
+
+}
