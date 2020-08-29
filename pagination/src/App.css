@@ -1,78 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.pagination {
-  max-width: 900px;
-  min-width: 400px;
+.App{
+   margin: 0;
+  padding: 0;
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  background-color: white;
-  padding: 20px;
+  overflow-x: hidden;
+  font-family: Arial;
+  background-color: rgb(241, 237, 237);
 }
+a { cursor: pointer; }
 
-.tableList .objectBlock {
+  .pagination {
+    max-width: 900px;    
+    width: 100%;
+    display: block;
+    margin: 0 auto;
     position: relative;
-    background-color:white;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .tableList .objectBlock {
+      position: relative;
+      background-color:white;
+      color:black;
+      padding: 10px;
+      margin-bottom: 10px;
+      /* border: 1px solid black; */
+  }
+  .pageButton {
+      border: 1px solid black;
+      padding: 5px;
+      margin-left: 10px;
+  }
+  .clickPageNumber {
+      background-color: lightgrey;
+      padding: 5px;
+      margin-left: 2px;
+      margin-right: 2px;
+  }
+  .pagination-block {
+    text-align: center;
+    /* width: 100%; */
+    margin: 15px;
+   
+  }
+  a{
+float:none !important;
+  }
+  .span {
+    display: inline;
+    align-content: space-between;
+    min-width: 20px;
+    
+  }
+  .pagination-block .pageButton {
+    
     color:black;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-}
-.pageButton {
-    border: 1px solid black;
-    padding: 5px;
-    margin-left: 10px;
-}
-.clickPageNumber {
-    background-color: lightgrey;
-    padding: 5px;
-    margin-left: 2px;
-    margin-right: 2px;
-}
-.pagination-block {
-  text-align: center;
-  width: 100%;
-  margin: 15px;
-}
-.pagination-block span {
-  display: inline;
-  align-content: space-between;
-}
-.pagination-block .pageButton {
+    float: left;
+  }
+  .pagination-block span:hover {
+    cursor: pointer;
+  }
+  .opacity {
+    opacity: 0.5;
+  }
+  .outline-none {
+    outline: none;
+    user-select: none; 
+  }
+
+  .setRecordsPerPage{
+   display: inline;
+   margin-left: 380px;
+   padding: 5px;
   
-  color:black;
-  float: left;
-}
-.pagination-block span:hover {
-  cursor: pointer;
-}
-.opacity {
-  opacity: 0.5;
-}
-.outline-none {
-  outline: none;
-  user-select: none; 
-}
+  }
+  table{
+    max-width: 900px;
+    /* width:100%; */
+    height: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+    border-right: 1px solid black;
+    text-align: center;
+  }
+  th{
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  tfoot{
+    min-width: 900px;
+    border: 5px solid black;
+  }
 
-.setNumPage{
- display: inline;
- margin-left: 400px;
  
- padding: 5px;
-
-}
-table{
-  width: 900px;
-  height: auto;
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-td, th{
-  border: 1px solid black;  
-  border-collapse: collapse;
-  text-align: center;
-
-}
